@@ -4,7 +4,7 @@ global $CFG;
 $CFG = new stdClass();
 
 // Database connection
-$CFG->dbtype    = 'mysqli';  // Use mysqli for MySQL
+$CFG->dbtype    = 'mariadb'; 
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle_db';   // your database name
