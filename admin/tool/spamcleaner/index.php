@@ -100,7 +100,7 @@ echo $OUTPUT->box_start();     // The forms section at the top
     <label class="accesshide" for="keyword_el"><?php print_string('spamkeyword', 'tool_spamcleaner') ?></label>
     <input type="text" class="form-control" name="keyword" id="keyword_el" value="<?php p($keyword) ?>" />
     <input type="hidden" name="sesskey" value="<?php echo sesskey();?>" />
-    <input type="submit" class="btn btn-primary" value="<?php echo get_string('spamsearch', 'tool_spamcleaner')?>" />
+    <input type="submit" class="btn btn-warning" value="<?php echo get_string('spamsearch', 'tool_spamcleaner')?>" />
   </div>
 </form>
 <p><?php echo get_string('spameg', 'tool_spamcleaner');?></p>
@@ -109,7 +109,7 @@ echo $OUTPUT->box_start();     // The forms section at the top
 
 <form method="post"  action="index.php">
   <div>
-    <input type="submit" class="btn btn-primary" name="autodetect"
+    <input type="submit" class="btn btn-warning" name="autodetect"
            value="<?php echo get_string('spamauto', 'tool_spamcleaner');?>" />
   </div>
 </form>
@@ -363,7 +363,7 @@ function print_user_entry($user, $keywords, $count) {
 
         $html .= '<td align="left">'.format_text($user->description, $user->descriptionformat, array('overflowdiv'=>true)).'</td>';
         $html .= '<td width="100px" align="center">';
-        $html .= '<button class="btn btn-primary" onclick="M.tool_spamcleaner.del_user(this,'.$user->id.')">'.
+        $html .= '<button class="btn btn-warning" onclick="M.tool_spamcleaner.del_user(this,'.$user->id.')">'.
             get_string('deleteuser', 'admin').'</button><br />';
         $html .= '<button class="btn btn-secondary" onclick="M.tool_spamcleaner.ignore_user(this,'.$user->id.')">'.
             get_string('ignore', 'admin').'</button>';

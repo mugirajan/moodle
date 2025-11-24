@@ -43,7 +43,7 @@ $report = system_report_factory::create(reports_list::class, context_system::ins
 if (permission::can_create_report()) {
     $report->set_report_action(new report_action(
         get_string('newreport', 'core_reportbuilder'),
-        ['class' => 'btn btn-primary my-auto', 'data-action' => 'report-create'],
+        ['class' => 'btn btn-warning my-auto', 'data-action' => 'report-create'],
     ));
 }
 

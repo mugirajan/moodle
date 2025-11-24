@@ -273,7 +273,7 @@ class renderer extends plugin_renderer_base {
             return html_writer::empty_tag('input', ['type' => 'button',
                     'value' => get_string('finishreview', 'quiz'),
                     'id' => 'secureclosebutton',
-                    'class' => 'mod_quiz-next-nav btn btn-primary']);
+                    'class' => 'mod_quiz-next-nav btn btn-warning']);
 
         } else {
             return html_writer::link($url, get_string('finishreview', 'quiz'),
@@ -643,7 +643,7 @@ class renderer extends plugin_renderer_base {
             $nextlabel = get_string('navigatenext', 'quiz');
         }
         $output .= html_writer::empty_tag('input', ['type' => 'submit', 'name' => 'next',
-                'value' => $nextlabel, 'class' => 'mod_quiz-next-nav btn btn-primary', 'id' => 'mod_quiz-next-nav']);
+                'value' => $nextlabel, 'class' => 'mod_quiz-next-nav btn btn-warning', 'id' => 'mod_quiz-next-nav']);
         $output .= html_writer::end_tag('div');
         $this->page->requires->js_call_amd('core_form/submit', 'init', ['mod_quiz-next-nav']);
 

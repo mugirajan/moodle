@@ -81,12 +81,12 @@
                                         {{{picturehtml}}}
                                         {{firstname}} {{lastname}} ({{email}})
                                     </p>
-                                    <input type="submit" class="btn btn-primary mt-auto" name="existing_account" value="{{#str}} linkthisaccount, auth_lti {{/str}}">
+                                    <input type="submit" class="btn btn-warning mt-auto" name="existing_account" value="{{#str}} linkthisaccount, auth_lti {{/str}}">
                                     {{/accountinfo}}
                                 {{/isloggedin}}
                                 {{^isloggedin}}
                                     <p class="card-text text-muted">{{#str}} mustbeloggedin, auth_lti {{/str}}</p>
-                                    <input type="submit" class="btn btn-primary mt-auto" name="existing_account" value="{{#str}} login, moodle {{/str}}">
+                                    <input type="submit" class="btn btn-warning mt-auto" name="existing_account" value="{{#str}} login, moodle {{/str}}">
                                 {{/isloggedin}}
                         </div>
                     </div>

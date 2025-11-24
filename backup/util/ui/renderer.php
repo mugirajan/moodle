@@ -333,7 +333,7 @@ class core_backup_renderer extends plugin_renderer_base {
             } else {
                 $html .= $selectacategoryhtml;
             }
-            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-primary');
+            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-warning');
             $html .= $this->backup_detail_pair('', html_writer::empty_tag('input', $attrs));
             $html .= html_writer::end_tag('div');
             $html .= html_writer::end_tag('form');
@@ -350,7 +350,7 @@ class core_backup_renderer extends plugin_renderer_base {
                 backup::TARGET_CURRENT_ADDING, array('checked' => 'checked'));
             $html .= $this->backup_detail_input(get_string('restoretocurrentcoursedeleting', 'backup'), 'radio', 'target',
                 backup::TARGET_CURRENT_DELETING);
-            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-primary');
+            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-warning');
             $html .= $this->backup_detail_pair('', html_writer::empty_tag('input', $attrs));
             $html .= html_writer::end_tag('div');
             $html .= html_writer::end_tag('form');
@@ -385,7 +385,7 @@ class core_backup_renderer extends plugin_renderer_base {
             } else {
                 $html .= $selectacoursehtml;
             }
-            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-primary');
+            $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-warning');
             $html .= $this->backup_detail_pair('', html_writer::empty_tag('input', $attrs));
             $html .= html_writer::end_tag('div');
             $html .= html_writer::end_tag('form');
@@ -417,7 +417,7 @@ class core_backup_renderer extends plugin_renderer_base {
         $html .= html_writer::start_tag('div', array('class' => 'ics-existing-course backup-section'));
         $html .= $this->output->heading(get_string('importdatafrom'), 2, array('class' => 'header'));
         $html .= $this->backup_detail_pair(get_string('selectacourse', 'backup'), $this->render($courses));
-        $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-primary');
+        $attrs = array('type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-warning');
         $html .= html_writer::start_tag('div', array('class' => 'mt-3'));
         $html .= $this->backup_detail_pair('', html_writer::empty_tag('input', $attrs));
         $html .= html_writer::end_tag('div');
@@ -533,7 +533,7 @@ class core_backup_renderer extends plugin_renderer_base {
     public function substage_buttons($haserrors) {
         $output  = html_writer::start_tag('div', array('continuebutton'));
         if (!$haserrors) {
-            $attrs = ['type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-primary me-1'];
+            $attrs = ['type' => 'submit', 'value' => get_string('continue'), 'class' => 'btn btn-warning me-1'];
             $output .= html_writer::empty_tag('input', $attrs);
         }
         $attrs = array('type' => 'submit', 'name' => 'cancel', 'value' => get_string('cancel'), 'class' => 'btn btn-secondary');

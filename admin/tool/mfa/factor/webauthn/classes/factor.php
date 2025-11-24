@@ -299,7 +299,7 @@ class factor extends object_factor_base {
             get_string('setupfactor:instructionsregistersecuritykey', 'factor_webauthn'), ['class' => 'bold']));
 
         $registerbtn = \html_writer::tag('btn', get_string('register', 'factor_webauthn'), [
-            'class' => 'btn btn-primary',
+            'class' => 'btn btn-warning',
             'type' => 'button',
             'id' => 'factor_webauthn-register',
             'tabindex' => '0',

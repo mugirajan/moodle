@@ -75,10 +75,10 @@
                 <input type="hidden" name="message" value="">
                 {{#slotid}}
                     <input name="slotid" type="hidden" value="{{slotid}}"/>
-                    <input type="submit" class="btn btn-primary" name="update" value="{{#str}} updatefilterconditon, mod_quiz {{/str}}">
+                    <input type="submit" class="btn btn-warning" name="update" value="{{#str}} updatefilterconditon, mod_quiz {{/str}}">
                 {{/slotid}}
                 {{^slotid}}
-                    <input type="submit" class="btn btn-primary" name="addrandom" value="{{#str}} addrandomquestion, mod_quiz {{/str}}">
+                    <input type="submit" class="btn btn-warning" name="addrandom" value="{{#str}} addrandomquestion, mod_quiz {{/str}}">
                 {{/slotid}}
                 <input type="submit" class="btn btn-secondary" name="cancel" value="{{#str}} cancel {{/str}}">
             </div>
@@ -121,7 +121,7 @@
 
             <!-- Buttons -->
             <div class="modal-footer mt-1" data-region="footer">
-                <input type="submit" class="btn btn-primary" name="newcategory" value="{{#str}} createcategoryandaddrandomquestion, mod_quiz {{/str}}">
+                <input type="submit" class="btn btn-warning" name="newcategory" value="{{#str}} createcategoryandaddrandomquestion, mod_quiz {{/str}}">
                 <input type="submit" class="btn btn-secondary" name="cancel" value="{{#str}} cancel {{/str}}">
             </div>
         </fieldset>

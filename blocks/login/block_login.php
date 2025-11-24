@@ -87,7 +87,7 @@ class block_login extends block_base {
             }
 
             $this->content->text .= '<div class="mb-3">';
-            $this->content->text .= '<input type="submit" class="btn btn-primary w-100" value="'.get_string('login').'" />';
+            $this->content->text .= '<input type="submit" class="btn btn-warning w-100" value="'.get_string('login').'" />';
             $this->content->text .= '</div>';
             $this->content->text .= '<input type="hidden" name="logintoken" value="'.s(\core\session\manager::get_login_token()).'" />';
 

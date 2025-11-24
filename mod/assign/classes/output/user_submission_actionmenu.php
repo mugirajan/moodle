@@ -143,7 +143,7 @@ class user_submission_actionmenu implements templatable, renderable {
                         new moodle_url('/mod/assign/view.php', $urlparams),
                             get_string('beginassignment', 'assign'),
                             $confirmation,
-                            ['class' => 'btn btn-primary']
+                            ['class' => 'btn btn-warning']
                     );
                     $data['edit']['button'] = $beginbutton->export_for_template($output);
                     $data['edit']['begin'] = true;

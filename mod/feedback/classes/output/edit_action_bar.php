@@ -69,7 +69,7 @@ class edit_action_bar extends base_action_bar {
      */
     private function get_add_question_menu(): action_menu {
         $addselect = new action_menu();
-        $addselect->set_menu_trigger(get_string('add_item', 'mod_feedback'), 'btn btn-primary');
+        $addselect->set_menu_trigger(get_string('add_item', 'mod_feedback'), 'btn btn-warning');
         $addselect->set_menu_left();
         $addselectparams = ['cmid' => $this->cmid, 'position' => $this->lastposition, 'sesskey' => sesskey()];
         foreach (feedback_load_feedback_items_options() as $key => $value) {

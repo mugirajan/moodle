@@ -2259,7 +2259,7 @@ class core_admin_renderer extends plugin_renderer_base {
         $output .= html_writer::empty_tag('input', [
             'type' => 'submit',
             'value' => get_string('submit'),
-            'class' => 'btn btn-primary mt-3',
+            'class' => 'btn btn-warning mt-3',
         ]);
         $output .= html_writer::end_tag('form');
         $output .= $this->container_end();

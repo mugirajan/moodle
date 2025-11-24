@@ -57,7 +57,7 @@ class test_static_hideif_disabledif_form extends moodleform {
             'Static element',
             'Static with <a href="#">form elements</a>
             <input id="id_some_static_username" type="text" class="form-control mb-2" placeholder="Type username...">
-            <button type="submit" class="btn btn-primary mb-2">Check</button>',
+            <button type="submit" class="btn btn-warning mb-2">Check</button>',
         );
         $mform->disabledIf('some_static', 'some_radios', 'eq', '2');
         $mform->hideIf('some_static', 'some_radios', 'eq', '3');

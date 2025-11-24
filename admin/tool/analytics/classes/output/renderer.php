@@ -249,7 +249,7 @@ class renderer extends plugin_renderer_base {
         $output = $this->output->header();
         $output .= $this->output->notification(get_string('analyticsdisabled', 'analytics'),
                 \core\output\notification::NOTIFY_INFO);
-        $output .= \html_writer::tag('a', get_string('continue'), ['class' => 'btn btn-primary',
+        $output .= \html_writer::tag('a', get_string('continue'), ['class' => 'btn btn-warning',
             'href' => (new \moodle_url('/'))->out()]);
         $output .= $this->output->footer();
 

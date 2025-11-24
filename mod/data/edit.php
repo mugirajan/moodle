@@ -207,7 +207,7 @@ $actionbuttons .= html_writer::empty_tag('input', [
     'type' => 'submit',
     'name' => 'saveandview',
     'value' => get_string('save'),
-    'class' => 'btn btn-primary mx-1'
+    'class' => 'btn btn-warning mx-1'
 ]);
 
 if (!$rid && ((!$data->maxentries) ||
@@ -215,7 +215,7 @@ if (!$rid && ((!$data->maxentries) ||
     (data_numentries($data) < ($data->maxentries - 1)))) {
     $actionbuttons .= html_writer::empty_tag('input', [
         'type' => 'submit', 'name' => 'saveandadd',
-        'value' => get_string('saveandadd', 'data'), 'class' => 'btn btn-primary mx-1'
+        'value' => get_string('saveandadd', 'data'), 'class' => 'btn btn-warning mx-1'
     ]);
 }
 

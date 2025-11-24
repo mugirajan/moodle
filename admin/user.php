@@ -173,7 +173,7 @@
         $url = new moodle_url('/user/editadvanced.php', ['id' => -1]);
         $report->set_report_action(new \core_reportbuilder\output\report_action(
             get_string('addnewuser', 'moodle'),
-            ['class' => 'btn btn-primary ms-auto', 'data-action' => 'add-user', 'href' => (string) $url],
+            ['class' => 'btn btn-warning ms-auto', 'data-action' => 'add-user', 'href' => (string) $url],
             'a',
         ));
     }

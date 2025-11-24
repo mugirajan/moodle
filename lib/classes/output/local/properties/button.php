@@ -40,7 +40,7 @@ enum button: string {
      */
     public function classes(): string {
         return match ($this) {
-            self::PRIMARY => ' btn btn-primary',
+            self::PRIMARY => ' btn btn-warning',
             self::SECONDARY => ' btn btn-secondary',
             self::SUCCESS => ' btn btn-success',
             self::DANGER => ' btn btn-danger',

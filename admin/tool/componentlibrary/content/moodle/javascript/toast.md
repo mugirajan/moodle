@@ -77,8 +77,8 @@ recommended when a longer period is used.
 | `closeButton` | The presence of the close button can be controlled using this boolean setting |
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-example-name="autohide-long">Auto-hide long</button>
-<button type="button" class="btn btn-primary" data-example-name="autohide-disabled">Auto-hide disabled</button>
+<button type="button" class="btn btn-warning" data-example-name="autohide-long">Auto-hide long</button>
+<button type="button" class="btn btn-warning" data-example-name="autohide-disabled">Auto-hide disabled</button>
 
 {{#js}}
 require(['core/toast'], Toast => {
@@ -107,7 +107,7 @@ can be configured or disabled. A close button can also be displayed, which is
 recommended when a longer period is used.
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-example-name="langstring">Language string</button>
+<button type="button" class="btn btn-warning" data-example-name="langstring">Language string</button>
 
 {{#js}}
 require(['core/toast', 'core/str'], (Toast, Str) => {

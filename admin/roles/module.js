@@ -57,7 +57,7 @@ M.core_role.init_cap_table_filter = function(Y, tableid, contextid) {
             this.label = Y.Node.create('<label for="' + this.input.get('id') + '">' +
                 M.util.get_string('filter', 'moodle') + ' </label>');
             // Create a clear button to clear the input.
-            this.button = Y.Node.create('<input type="button" class="btn btn-primary"' +
+            this.button = Y.Node.create('<input type="button" class="btn btn-warning"' +
                 ' value="'+M.util.get_string('clear', 'moodle')+'" />').set('disabled', filtervalue=='');
 
             // Tie it all together

@@ -80,17 +80,17 @@
 <div class="policy_buttons">
     {{#returnurl}}
         {{# numpolicy }}
-            <a role="button" href="{{returnurl}}" class="btn btn-primary">{{#str}} next {{/str}}</a>
+            <a role="button" href="{{returnurl}}" class="btn btn-warning">{{#str}} next {{/str}}</a>
         {{/ numpolicy }}
         {{^ numpolicy }}
-            <a role="button" href="{{returnurl}}" class="btn btn-primary">{{#str}} back {{/str}}</a>
+            <a role="button" href="{{returnurl}}" class="btn btn-warning">{{#str}} back {{/str}}</a>
         {{/ numpolicy }}
     {{/returnurl}}
     {{#editurl}}
         <a role="button" href="{{editurl}}" class="btn">{{#str}} edit {{/str}}</a>
     {{/editurl}}
     {{#accepturl}}
-        <a role="button" href="{{accepturl}}" class="btn btn-primary">{{#str}} iagree, tool_policy, {{{policy.name}}} {{/str}}</a>
+        <a role="button" href="{{accepturl}}" class="btn btn-warning">{{#str}} iagree, tool_policy, {{{policy.name}}} {{/str}}</a>
     {{/accepturl}}
     {{#declineurl}}
         <a role="button" href="{{declineurl}}" class="btn btn-link">{{#str}} idontagree, tool_policy, {{{policy.name}}} {{/str}}</a>

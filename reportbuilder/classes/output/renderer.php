@@ -116,7 +116,7 @@ class renderer extends plugin_renderer_base {
         \core\deprecation::emit_deprecation_if_present([self::class, __FUNCTION__]);
 
         return html_writer::tag('button', get_string('newreport', 'core_reportbuilder'), [
-            'class' => 'btn btn-primary my-auto',
+            'class' => 'btn btn-warning my-auto',
             'data-action' => 'report-create',
         ]);
     }

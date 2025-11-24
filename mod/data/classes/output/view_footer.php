@@ -147,7 +147,7 @@ class view_footer extends sticky_footer {
                 $addentrylink,
                 get_string('add', 'mod_data'),
                 null,
-                ['class' => 'btn btn-primary mx-1', 'role' => 'button']
+                ['class' => 'btn btn-warning mx-1', 'role' => 'button']
             );
             $data['addentrybutton'] = $addentrybutton->export_for_template($output);
         }

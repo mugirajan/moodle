@@ -68,7 +68,7 @@ $dialog = new core\output\local\dropdown\dialog(
     'Open dialog',
     'Dialog content',
     [
-        'buttonclasses' => 'btn btn-primary extraclass',
+        'buttonclasses' => 'btn btn-warning extraclass',
     ]
 );
 echo $OUTPUT->render($dialog);

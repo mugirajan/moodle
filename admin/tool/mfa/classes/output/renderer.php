@@ -219,7 +219,7 @@ class renderer extends \plugin_renderer_base {
                         'data-factorname' => $factor->get_display_name(),
                         'data-devicename' => $userfactor->label,
                         'aria-label' => get_string('revokefactor', 'tool_mfa'),
-                        'class' => 'btn btn-primary mfa-action-button',
+                        'class' => 'btn btn-warning mfa-action-button',
                     ];
                     $revokebutton = \html_writer::tag('button', $content, $attributes);
                 } else {
@@ -236,7 +236,7 @@ class renderer extends \plugin_renderer_base {
                         'data-factorname' => $factor->get_display_name(),
                         'data-devicename' => $userfactor->label,
                         'aria-label' => get_string('replacefactor', 'tool_mfa'),
-                        'class' => 'btn btn-primary mfa-action-button',
+                        'class' => 'btn btn-warning mfa-action-button',
                     ];
                     $replacebutton = \html_writer::tag('button', $content, $attributes);
                 } else {

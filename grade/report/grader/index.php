@@ -251,7 +251,7 @@ if (!empty($USER->editing) && $report->get_pref('quickgrading')) {
     echo $reporthtml;
 
     $footercontent .= html_writer::div(
-        '<input type="submit" id="gradersubmit" class="btn btn-primary" value="'.s(get_string('savechanges')).'" />',
+        '<input type="submit" id="gradersubmit" class="btn btn-warning" value="'.s(get_string('savechanges')).'" />',
         'col-auto'
     );
 

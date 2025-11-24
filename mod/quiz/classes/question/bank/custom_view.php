@@ -200,7 +200,7 @@ class custom_view extends \core_question\local\bank\view {
             $params = [
                 'type' => 'submit',
                 'name' => 'add',
-                'class' => 'btn btn-primary',
+                'class' => 'btn btn-warning',
                 'value' => get_string('addselectedquestionstoquiz', 'quiz'),
                 'data-action' => 'toggle',
                 'data-togglegroup' => 'qbank',

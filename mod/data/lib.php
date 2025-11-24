@@ -460,7 +460,7 @@ class data_field_base {     // Base class for Database Field Types (see field/*/
         $actionbuttons .= html_writer::tag('input', null, [
             'type' => 'submit',
             'value' => get_string('save'),
-            'class' => 'btn btn-primary mx-1'
+            'class' => 'btn btn-warning mx-1'
         ]);
         $actionbuttons .= html_writer::end_div();
 
@@ -1928,7 +1928,7 @@ function data_print_preference_form($data, $perpage, $search, $sort='', $order='
     echo '</td></tr>';
 
     echo '<tr><td colspan="4"><br/>' .
-         '<input type="submit" class="btn btn-primary me-1" value="' . get_string('savesettings', 'data') . '" />' .
+         '<input type="submit" class="btn btn-warning me-1" value="' . get_string('savesettings', 'data') . '" />' .
          '<input type="submit" class="btn btn-secondary" name="resetadv" value="' . get_string('resetsettings', 'data') . '" />' .
          '</td></tr>';
     echo '</table>';

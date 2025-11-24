@@ -1014,7 +1014,7 @@ function scorm_print_launch($user, $scorm, $action, $cm) {
             echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'mode', 'value' => 'normal'));
         }
         echo html_writer::tag('button', get_string('enter', 'scorm'),
-                ['class' => 'btn btn-primary mx-1', 'name' => 'mode',
+                ['class' => 'btn btn-warning mx-1', 'name' => 'mode',
                     'type' => 'submit', 'id' => 'n', 'value' => 'normal'])
              . html_writer::end_tag('button');
         if (!empty($scorm->forcenewattempt)) {

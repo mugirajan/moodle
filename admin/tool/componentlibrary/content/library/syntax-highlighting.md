@@ -82,7 +82,7 @@ show_preview="true/false"
 <div class="input-group">
   <input type="text" class="form-control" placeholder="Search">
   <div class="input-group-append">
-    <button class="btn btn-primary" type="button">
+    <button class="btn btn-warning" type="button">
         <i class="fa fa-search"></i>
     </button>
   </div>
@@ -97,7 +97,7 @@ show_preview="true/false"
 <div class="input-group">
   <input type="text" class="form-control" placeholder="Search">
   <div class="input-group-append">
-    <button class="btn btn-primary" type="button">
+    <button class="btn btn-warning" type="button">
         <i class="fa fa-search"></i>
     </button>
   </div>

@@ -162,7 +162,7 @@ class quiz_grading_renderer extends plugin_renderer_base {
 
         $output .= html_writer::tag('div', html_writer::empty_tag('input', [
                 'type' => 'submit',
-                'class' => 'btn btn-primary',
+                'class' => 'btn btn-warning',
                 'value' => get_string('saveandnext', 'quiz_grading')
         ]), ['class' => 'mdl-align']);
         $output .= html_writer::end_tag('div') . html_writer::end_tag('form');

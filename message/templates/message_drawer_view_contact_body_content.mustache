@@ -54,7 +54,7 @@
     <div class="px-4 mt-4 d-grid gap-2">
         <button
             type="button"
-            class="btn btn-primary {{^isblocked}}hidden{{/isblocked}}"
+            class="btn btn-warning {{^isblocked}}hidden{{/isblocked}}"
             data-route="view-conversation"
             data-route-param-1=""
             data-route-param-2="unblock"
@@ -85,7 +85,7 @@
         {{#cancreatecontact}}
         <button
             type="button"
-            class="btn btn-primary {{#iscontact}}hidden{{/iscontact}}"
+            class="btn btn-warning {{#iscontact}}hidden{{/iscontact}}"
             data-route="view-conversation"
             data-route-param-1=""
             data-route-param-2="add-contact"

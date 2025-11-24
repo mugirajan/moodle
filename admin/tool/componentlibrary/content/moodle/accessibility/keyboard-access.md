@@ -28,7 +28,7 @@ The focus outlines colours in Moodle have been made more accessible in [MDL-6787
 <div id="focusexamples">
     <p> Normal buttons</p>
     <div>
-        <span class="me-2"><button class="btn btn-primary">Primary</button></span>
+        <span class="me-2"><button class="btn btn-warning">Primary</button></span>
         <span class="me-2"><button class="btn btn-secondary">Secondary</button></span>
         <span class="me-2"><button class="btn btn-danger">Danger</button></span>
         <span class="me-2"><button class="btn btn-outline-secondary">Outline</button></span>
@@ -36,7 +36,7 @@ The focus outlines colours in Moodle have been made more accessible in [MDL-6787
     </div>
     <p  class="mt-4"> keyboard focus</p>
     <div>
-        <span class="me-2"><button class="focusloop btn btn-primary">Primary</button></span>
+        <span class="me-2"><button class="focusloop btn btn-warning">Primary</button></span>
         <span class="me-2"><button class="focusloop btn btn-secondary">Secondary</button></span>
         <span class="me-2"><button class="focusloop btn btn-danger">Danger</button></span>
         <span class="me-2"><button class="focusloop btn btn-outline-secondary">Outline</button></span>

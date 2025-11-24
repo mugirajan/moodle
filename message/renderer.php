@@ -55,7 +55,7 @@ class core_message_renderer extends plugin_renderer_base {
 
         $output .= html_writer::start_tag('div', ['class' => 'form-buttons mb-3']);
         $output .= html_writer::empty_tag('input',
-            array('type' => 'submit', 'value' => get_string('savechanges', 'admin'), 'class' => 'form-submit btn btn-primary')
+            array('type' => 'submit', 'value' => get_string('savechanges', 'admin'), 'class' => 'form-submit btn btn-warning')
         );
         $output .= html_writer::end_tag('div');
         $output .= html_writer::end_tag('form');

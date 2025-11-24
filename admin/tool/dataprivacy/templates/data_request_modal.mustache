@@ -40,13 +40,13 @@
     {{$footer}}
         {{#approvedeny}}
             {{#allowfiltering}}
-                <button type="button" class="btn btn-primary" data-action="approve-selected-courses">{{#str}} approveselectedcourses, tool_dataprivacy {{/str}}</button>
+                <button type="button" class="btn btn-warning" data-action="approve-selected-courses">{{#str}} approveselectedcourses, tool_dataprivacy {{/str}}</button>
             {{/allowfiltering}}
-            <button type="button" class="btn btn-primary" data-action="approve">{{#str}} approve, tool_dataprivacy {{/str}}</button>
+            <button type="button" class="btn btn-warning" data-action="approve">{{#str}} approve, tool_dataprivacy {{/str}}</button>
             <button type="button" class="btn btn-secondary" data-action="deny">{{#str}} deny, tool_dataprivacy {{/str}}</button>
         {{/approvedeny}}
         {{#canmarkcomplete}}
-            <button type="button" class="btn btn-primary" data-action="complete">{{#str}} markcomplete, tool_dataprivacy {{/str}}</button>
+            <button type="button" class="btn btn-warning" data-action="complete">{{#str}} markcomplete, tool_dataprivacy {{/str}}</button>
         {{/canmarkcomplete}}
     {{/footer}}
 {{/ core/modal }}

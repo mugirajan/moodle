@@ -59,7 +59,7 @@
             <button data-filteraction="showall" data-perpage="{{ perpage }}" data-status="0" type="button" class="btn btn-light ms-auto me-2">{{#str}}showall{{/str}}</button>
         {{/showallbutton}}
         <button data-filteraction="reset" type="button" class="btn btn-secondary {{^showallbutton}}ms-auto{{/showallbutton}} me-2">{{#str}}clearfilters{{/str}}</button>
-        <button data-filteraction="apply" type="submit" class="btn btn-primary">{{#str}}applyfilters{{/str}}</button>
+        <button data-filteraction="apply" type="submit" class="btn btn-warning">{{#str}}applyfilters{{/str}}</button>
     </div>
 
     {{> core/datafilter/filter_types }}

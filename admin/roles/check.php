@@ -181,7 +181,7 @@ $userselector->display();
 
 // Submit button and the end of the form.
 echo '<p id="chooseusersubmit"><input type="submit" value="' . get_string('showthisuserspermissions', 'core_role') . '" ' .
-     'class="btn btn-primary"/></p>';
+     'class="btn btn-warning"/></p>';
 echo '</form>';
 echo $OUTPUT->box_end();
 

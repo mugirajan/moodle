@@ -96,7 +96,7 @@
             $managefeedfooterlink = html_writer::link(
                 new moodle_url('/blocks/rss_client/managefeeds.php', ['courseid' => $this->page->course->id]),
                 get_string('managefeeds', 'block_rss_client'),
-                ['class' => 'btn btn-primary', 'role' => 'button'],
+                ['class' => 'btn btn-warning', 'role' => 'button'],
             );
         }
 

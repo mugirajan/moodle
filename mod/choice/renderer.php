@@ -90,7 +90,7 @@ class mod_choice_renderer extends plugin_renderer_base {
                     $html .= html_writer::empty_tag('input', array(
                         'type' => 'submit',
                         'value' => get_string('savemychoice', 'choice'),
-                        'class' => 'btn btn-primary'
+                        'class' => 'btn btn-warning'
                     ));
                 }
 

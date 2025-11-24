@@ -126,7 +126,7 @@ class mod_data_renderer extends plugin_renderer_base {
         ]);
         $actionbuttons .= html_writer::empty_tag('input', [
             'type' => 'submit',
-            'class' => 'btn btn-primary mx-1',
+            'class' => 'btn btn-warning mx-1',
             'value' => get_string('continue'),
         ]);
         $actionbuttons .= html_writer::end_div();

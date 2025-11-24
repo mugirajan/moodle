@@ -19,7 +19,7 @@ The most used buttons types in Moodle are:
 ## Example
 
 {{< example >}}
-<button type="button" class="btn btn-primary">Primary Button</button>
+<button type="button" class="btn btn-warning">Primary Button</button>
 <button type="button" class="btn btn-secondary">Secondary Button</button>
 <button type="button" class="btn btn-danger">Danger Button</button>
 <button type="button" class="btn btn-outline-secondary">Outline Button</button>
@@ -28,7 +28,7 @@ The most used buttons types in Moodle are:
 ### Primary buttons
 
 {{< example show_markup="false">}}
-<button type="button" class="btn btn-primary">Primary Button</button>
+<button type="button" class="btn btn-warning">Primary Button</button>
 {{< /example >}}
 
 For the primary/most used action on the page use a primary button.
@@ -134,7 +134,7 @@ Use primary buttons for the positive action on the page, for example "Save" or "
                 <strong>Save Changes?</strong>
                 <div class="d-flex">
                     <button type="button" class="btn btn-secondary me-1">Cancel</button>
-                    <button type="button" class="btn btn-primary me-1">Save</button>
+                    <button type="button" class="btn btn-warning me-1">Save</button>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@ Use primary buttons for the positive action on the page, for example "Save" or "
             <div class="card-body">
                 <strong>Delete profile</strong>
                 <div class="d-flex">
-                    <button type="button" class="btn btn-primary me-1">Cancel</button>
+                    <button type="button" class="btn btn-warning me-1">Cancel</button>
                     <button type="button" class="btn btn-secondary">Delete</button>
                 </div>
             </div>
@@ -158,7 +158,7 @@ In case of more dangerous actions, like deleting something the having stiling th
 Bootstrap classes are used to style Buttons, the most used styles are:
 
 {{< example >}}
-<button type="button" class="btn btn-primary">Primary buttons</button>
+<button type="button" class="btn btn-warning">Primary buttons</button>
 <button type="button" class="btn btn-secondary">Secondary buttons</button>
 {{< /example >}}
 
@@ -174,7 +174,7 @@ The meaning of buttons must be very clear.
                 <strong>Save Changes?</strong>
                 <p>Would you like to not save your changes before exiting?</p>
                 <div class="d-flex">
-                    <button type="button" class="btn btn-primary me-1">Yes</button>
+                    <button type="button" class="btn btn-warning me-1">Yes</button>
                     <button type="button" class="btn btn-secondary">No</button>
                 </div>
             </div>
@@ -187,7 +187,7 @@ The meaning of buttons must be very clear.
                 <strong>Save Changes</strong>
                 <p>Would you like to save your changes before exiting?</p>
                 <div class="d-flex">
-                    <button type="button" class="btn btn-primary me-1">Save</button>
+                    <button type="button" class="btn btn-warning me-1">Save</button>
                     <button type="button" class="btn btn-secondary">Discard</button>
                 </div>
             </div>

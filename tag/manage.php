@@ -199,7 +199,7 @@ echo html_writer::div(
         $OUTPUT->pix_icon('t/add', '') . get_string('addotags', 'core_tag'),
         [
             'type' => 'button',
-            'class' => 'btn btn-primary my-auto',
+            'class' => 'btn btn-warning my-auto',
             'data-action' => 'addstandardtag',
         ],
     ),

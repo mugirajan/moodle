@@ -28,13 +28,13 @@ to the target element.
 
 To display a confirmation modal.
 {{< highlight html >}}
-<button type="button" class="btn btn-primary" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
+<button type="button" class="btn btn-warning" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
 data-modal-content-str='["areyousure"]' data-modal-yes-button-str='["delete", "core"]'>Show confirmation modal</button>
 {{< /highlight >}}
 
 To display an alert modal.
 {{< highlight html >}}
-<button type="button" class="btn btn-primary" data-modal="alert" data-modal-title-str='["cookiesenabled", "core"]'
+<button type="button" class="btn btn-warning" data-modal="alert" data-modal-title-str='["cookiesenabled", "core"]'
 data-modal-content-str='["cookiesenabled_help_html", "core"]'>Show alert modal</button>
 {{< /highlight >}}
 
@@ -106,21 +106,21 @@ echo $OUTPUT->single_button('#', get_string('delete'), 'get', [
 ### Basic Alert modal
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-modal="alert" data-modal-title-str='["cookiesenabled", "core"]'
+<button type="button" class="btn btn-warning" data-modal="alert" data-modal-title-str='["cookiesenabled", "core"]'
 data-modal-content-str='["cookiesenabled_help_html", "core"]'>Show alert modal</button>
 {{< /example >}}
 
 ### Basic confirmation modal
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
+<button type="button" class="btn btn-warning" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
 data-modal-content-str='["areyousure"]' data-modal-yes-button-str='["delete", "core"]'>Show confirmation modal</button>
 {{< /example >}}
 
 ### Confirmation modal with a toast
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
+<button type="button" class="btn btn-warning" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
 data-modal-content-str='["areyousure"]' data-modal-yes-button-str='["delete", "core"]' data-modal-toast="true"
 data-modal-toast-confirmation-str='["deleteblockinprogress", "block", "Online users"]'>Show confirmation modal</button>
 {{< /example >}}
@@ -128,7 +128,7 @@ data-modal-toast-confirmation-str='["deleteblockinprogress", "block", "Online us
 ### Confirmation modal with redirect
 
 {{< example >}}
-<button type="button" class="btn btn-primary" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
+<button type="button" class="btn btn-warning" data-modal="confirmation" data-modal-title-str='["delete", "core"]'
 data-modal-content-str='["areyousure"]' data-modal-yes-button-str='["delete", "core"]'
 data-modal-destination="http://moodle.com">Show confirmation modal</button>
 {{< /example >}}

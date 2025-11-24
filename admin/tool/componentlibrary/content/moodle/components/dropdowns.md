@@ -51,7 +51,7 @@ $dialog = new core\output\local\dropdown\dialog(
     'Dialog content',
     [
         'classes' => 'mb-4',
-        'buttonclasses' => 'btn btn-primary extraclass',
+        'buttonclasses' => 'btn btn-warning extraclass',
     ]
 );
 echo $OUTPUT->render($dialog);
@@ -62,7 +62,7 @@ echo $OUTPUT->render($dialog);
         "buttonid" : "example01",
         "buttoncontent" : "Open dialog",
         "dialogcontent" : "Dialog content",
-        "buttonclasses": "btn btn-primary extraclass"
+        "buttonclasses": "btn btn-warning extraclass"
     }
 {{< /mustache >}}
 
@@ -93,7 +93,7 @@ echo $OUTPUT->render($dialog);
         "buttonid" : "example02",
         "buttoncontent" : "Big dialog",
         "dialogcontent" : "This is a long content for a big dialog that will be displayed in a fixed-width container.",
-        "buttonclasses": "btn btn-primary extraclass",
+        "buttonclasses": "btn btn-warning extraclass",
         "dialogclasses": "dialog-big"
     }
 {{< /mustache >}}

@@ -47,7 +47,7 @@ class schedules extends base {
             ['reportid' => $this->data['reportid']]);
         $report->set_report_action(new report_action(
             get_string('newschedule', 'core_reportbuilder'),
-            ['class' => 'btn btn-primary ms-auto', 'data-action' => 'schedule-create'],
+            ['class' => 'btn btn-warning ms-auto', 'data-action' => 'schedule-create'],
         ));
 
         return [
